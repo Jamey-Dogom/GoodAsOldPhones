@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		809987651C65C64100A551E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809987641C65C64100A551E8 /* AppDelegate.swift */; };
-		809987671C65C64100A551E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809987661C65C64100A551E8 /* ViewController.swift */; };
 		8099876A1C65C64100A551E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809987681C65C64100A551E8 /* Main.storyboard */; };
 		8099876C1C65C64100A551E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8099876B1C65C64100A551E8 /* Assets.xcassets */; };
 		8099876F1C65C64100A551E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8099876D1C65C64100A551E8 /* LaunchScreen.storyboard */; };
+		809987771C65D1C600A551E8 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809987761C65D1C600A551E8 /* ProductViewController.swift */; };
+		809987791C65DB5200A551E8 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809987781C65DB5200A551E8 /* ContactViewController.swift */; };
+		80B352E21C65E2F600BEBA41 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B352E11C65E2F600BEBA41 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		809987611C65C64100A551E8 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809987641C65C64100A551E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		809987661C65C64100A551E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		809987691C65C64100A551E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8099876B1C65C64100A551E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8099876E1C65C64100A551E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		809987701C65C64100A551E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809987761C65D1C600A551E8 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		809987781C65DB5200A551E8 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		80B352E11C65E2F600BEBA41 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				809987641C65C64100A551E8 /* AppDelegate.swift */,
-				809987661C65C64100A551E8 /* ViewController.swift */,
 				809987681C65C64100A551E8 /* Main.storyboard */,
 				8099876B1C65C64100A551E8 /* Assets.xcassets */,
 				8099876D1C65C64100A551E8 /* LaunchScreen.storyboard */,
 				809987701C65C64100A551E8 /* Info.plist */,
+				809987761C65D1C600A551E8 /* ProductViewController.swift */,
+				809987781C65DB5200A551E8 /* ContactViewController.swift */,
+				80B352E11C65E2F600BEBA41 /* ProductsTableViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809987671C65C64100A551E8 /* ViewController.swift in Sources */,
+				809987771C65D1C600A551E8 /* ProductViewController.swift in Sources */,
+				80B352E21C65E2F600BEBA41 /* ProductsTableViewController.swift in Sources */,
 				809987651C65C64100A551E8 /* AppDelegate.swift in Sources */,
+				809987791C65DB5200A551E8 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				809987751C65C64100A551E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
